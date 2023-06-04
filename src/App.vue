@@ -6,7 +6,7 @@
     <br>
     <input type="text" v-model="newTask" @keyup.enter="addTask" placeholder="Add a new task">
     <button @click="addTask" :disabled="newTask.length < 1">
-      Add Task
+      Add Task 55
   </button>
   </div>
 
